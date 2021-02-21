@@ -1,6 +1,0 @@
-<launch> 
-    <param name="/use_sim_time" value="true" />   
-    
-    <!-- Launch random walk node -->
-    <node name="turtlebot3_random_walk_node" pkg="turtlebot3_random_walk" type="turtlebot3_random_walk_node" output="screen"/>
-</launch>
